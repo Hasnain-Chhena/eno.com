@@ -1,0 +1,317 @@
+.card-content {
+  background-color: rgb(240, 240, 240);
+  padding: 30px 20px;
+  transition: all 0.6s ease;
+}
+.card-content:hover {
+  transform: translateY(-12px);
+  cursor: pointer;
+}
+.icon-remix {
+  color: #10bc69;
+}
+.dummy-name {
+  color: #5f687b;
+  transition: all 0.1s ease;
+}
+.dummy-name:hover {
+  color: #10bc69;
+}
+h1 {
+  color: rgb(92, 87, 87);
+  font-size: 50px;
+}
+.hero-para {
+  color: rgb(109, 103, 103);
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.moving-img {
+  animation-name: moving;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+@keyframes moving {
+  to {
+    transform: translateY(0);
+  }
+
+  from {
+    transform: translateY(-15px);
+  }
+}
+.light-color {
+  color: #5f687b;
+}
+h3 {
+  font-size: 32px;
+  margin-top: 100px;
+  color: rgb(80, 68, 68);
+  font-weight: bold;
+}
+.double-check {
+  color: #10bc69;
+  font-size: 21px;
+}
+.counter-numbers {
+  color: #10bc69;
+  font-size: 48px;
+  font-weight: bold;
+}
+#services-cntnt {
+  background-color: #e2dddd;
+  padding-bottom: 15px;
+}
+.card-cntnt {
+  background-color: #fff;
+  padding: 70px 20px;
+  transition: all 0.4s ease;
+}
+.card-cntnt:hover {
+  border: 1px solid #10bc69;
+}
+.icon-within {
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.service-icons {
+  background-color: #10bc69;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+#services-cntnt {
+  background-color: #f1f1f1;
+}
+.portfolio-headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.headings {
+  color: rgb(70, 66, 66);
+  transition: all o.3s ease;
+}
+.headings:hover {
+  color: #10bc69;
+}
+.portfolio-icon {
+  font-size: 28px;
+  color: rgb(70, 66, 66);
+}
+.portfolio-cntnt {
+  position: relative;
+}
+.img-cntnt {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0;
+  left: 10px;
+}
+.portfolio-cntnt:hover .img-cntnt {
+  opacity: 0.9;
+  transform: translateY(-15px);
+  transition: all 0.3s ease;
+}
+.app-txt {
+  font-weight: bolder;
+  color: rgb(88, 85, 85);
+}
+#Testimonials {
+  background-color: #f9f9f9;
+}
+.quote-box {
+  font-family: "Georgia", serif;
+}
+.quote-left,
+.quote-right {
+  font-size: 40px;
+  font-weight: bold;
+  color: #29d161; /* light green, matching your image */
+}
+.single-card {
+  background-color: rgb(241, 241, 241);
+  height: 58%;
+}
+.character-img {
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+  border-radius: 100%;
+}
+.hero-name {
+  font-weight: bolder;
+  color: rgb(88, 85, 85);
+}
+.work {
+  color: rgb(92, 88, 88);
+}
+#action-cntnt {
+  background-color: #10bc69;
+  color: #f9f9f9;
+}
+.call {
+  font-size: 28px;
+  font-weight: bold;
+}
+button .cta {
+  text-align: center;
+}
+.cta {
+  border: 2px solid #fff;
+  border-radius: 40px 40px 40px 40px;
+  background-color: #10bc69;
+  padding: 10px 40px;
+  color: #f3eded;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+.cta:hover {
+  background-color: #7effc167;
+}
+.about-img {
+  background-color: #fff;
+  width: 95%;
+  position: relative;
+  left: 10px;
+  bottom: 60px;
+  box-shadow: 0px 0px 10px rgba(173, 171, 171, 0.226);
+}
+.social-icons {
+  display: flex;
+  gap: 15px; /* space between icons */
+  justify-content: center;
+  align-items: center;
+}
+.jin {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(82, 80, 80);
+}
+.icon {
+  color: #ccc; /* light gray color like the image */
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.icon:hover {
+  color: #29d161; /* change on hover (optional) */
+}
+.about-character {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.elegant-chaos {
+  color: #5f687b;
+  font-size: 48px;
+}
+.form-icons {
+  color: #29d161;
+  background-color: #e2dfdf;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+}
+.form-icons:hover {
+  background-color: #10bc69;
+  color: #e2dfdf;
+}
+.icon-item {
+  font-size: 16px;
+  position: relative;
+  left: 70px;
+  bottom: 20px;
+}
+.half-card {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ece9e9;
+  padding: 20px;
+}
+.scnd-card {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #f0eaea;
+  padding: 20px;
+}
+.form-1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  width: 100%;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.form-1:focus {
+  border: 1px solid #29d161;
+}
+.form-2 {
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.form-3 {
+  width: 100%;
+  padding-left: 12px;
+  padding-bottom: 180px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.form-2:focus {
+  border: 1px solid #29d161;
+}
+.form-3:focus {
+  border: 1px solid #29d161;
+}
+.newsletter {
+  background-color: #eceaea7a;
+}
+.subs-bar {
+  border: none;
+  padding: 8px 25%;
+  box-shadow: 0px 0px 10px #afaeae;
+}
+.subscribe {
+  background-color: #10bc69;
+  color: white;
+  position: relative;
+  bottom: 0px;
+  right: 130px;
+}
+.address {
+  position: relative;
+  bottom: 10px;
+}
+.arrow-left {
+  color: #10bc69;
+}
+.social-icon {
+  color: rgba(39, 38, 38, 0.562);
+  border: 1px solid#5f687b;
+  border-radius: 50%;
+  padding: 8px;
+}
+.social-icon:hover {
+  border: 1px solid #10bc69;
+  color: #10bc69;
+}
+.content-font {
+  font-size: 14px;
+}
+.design {
+  position: relative;
+  bottom: 10px;
+}
